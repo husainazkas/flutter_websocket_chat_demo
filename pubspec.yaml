@@ -1,0 +1,21 @@
+name: flutter_websocket_chat_demo
+description: A Flutter app for demonstrate how chat working with websocket.
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  web_socket_channel: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
